@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookParser", "BookParser\BookParser.csproj", "{9C0189DE-B820-424F-AD01-4736F200264A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4D3C0DA7-B557-46CC-8030-236250E5082C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBookParserUI", "ConsoleBookParserUI\ConsoleBookParserUI.csproj", "{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSimple", "ConsoleSimple\ConsoleSimple.csproj", "{CB3AB675-E039-43B4-A3F3-570C7AB6341D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parsers", "Parsers", "{E090DBC2-129D-4EE4-A29C-6FBE5B969644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Savers", "Savers", "{72E4C94C-B460-44F4-A2BA-202628A11D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzonBookParser", "OzonBookParser\OzonBookParser.csproj", "{43B39E55-3127-45EA-B064-9C4F2AF25DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlBookSaver", "XmlBookSaver\XmlBookSaver.csproj", "{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0189DE-B820-424F-AD01-4736F200264A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0189DE-B820-424F-AD01-4736F200264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0189DE-B820-424F-AD01-4736F200264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0189DE-B820-424F-AD01-4736F200264A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3AB675-E039-43B4-A3F3-570C7AB6341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3AB675-E039-43B4-A3F3-570C7AB6341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3AB675-E039-43B4-A3F3-570C7AB6341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3AB675-E039-43B4-A3F3-570C7AB6341D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B39E55-3127-45EA-B064-9C4F2AF25DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B39E55-3127-45EA-B064-9C4F2AF25DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B39E55-3127-45EA-B064-9C4F2AF25DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B39E55-3127-45EA-B064-9C4F2AF25DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{701BE031-37B9-48D0-B2D9-B4D7A2E0C2E5} = {4D3C0DA7-B557-46CC-8030-236250E5082C}
+		{CB3AB675-E039-43B4-A3F3-570C7AB6341D} = {4D3C0DA7-B557-46CC-8030-236250E5082C}
+		{43B39E55-3127-45EA-B064-9C4F2AF25DA9} = {E090DBC2-129D-4EE4-A29C-6FBE5B969644}
+		{D8BFC32A-02A8-4D4F-9347-B38CB1845FF2} = {72E4C94C-B460-44F4-A2BA-202628A11D38}
+	EndGlobalSection
+EndGlobal
